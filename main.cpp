@@ -21,17 +21,12 @@ void Test1(int method){
                      "9 10 11 12 "
                      "13 14 15 100";
     PuzzleSolver puzz_solver(goal);
-//    std::cout << "Begin" << std::endl;
-//    string io;
-//    std::cin >> io;
+
     auto SolNode = std::move(puzz_solver.solve(intial,method));
     std::cout << std::endl;
     auto  solutionAction = puzz_solver.traceSolution(SolNode);
     std::cout << solutionAction << std::endl;
-    //std::cout << solutionAction.size() << std::endl;
-//    std::cout << "End" << std::endl;
-//    string lo;
-//    std::cin >> lo;
+
 }
 
 
@@ -49,7 +44,7 @@ int main()
 
     }
 
-   // std::cout << "Decontruciton Complete " << std::endl;
+
 
 }
 
