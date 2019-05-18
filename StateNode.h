@@ -48,7 +48,6 @@ class StateNode
 
         unsigned int getBlackPostionCol() const;
         void setBlackPostionCol(unsigned int value);
-
         std::vector<std::vector<int> > getInternelState() const;
         void setInternelState(const std::vector<std::vector<int> > &value);
 

@@ -55,29 +55,6 @@ int main()
 
 
 
-//#include <emscripten/bind.h>
-//using namespace emscripten;
-
-//// Binding code
-//EMSCRIPTEN_BINDINGS(my_class_example) {
-//  class_<PuzzleSolver>("PuzzleSolver")
-//    .constructor<std::string>()
-//    .function("solveWebAssembly", &PuzzleSolver::solveWebAssembly)
-//    .function("solve", &PuzzleSolver::solve)
-//    ;
-//    //register_string<std::string>("string");
-//}
-
-
-
-
-
-
-
-//int main(){
-//    lerp("DevanoIo");
-//    return 1;
-//}
 
 
 

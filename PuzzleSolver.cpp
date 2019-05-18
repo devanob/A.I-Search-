@@ -62,6 +62,7 @@ std::string PuzzleSolver::solveString(const unsigned int &intialStateStringPtr, 
     return solutionActions;
 }
 
+
 bool PuzzleSolver::isDiscovered(StateNode &node)
 {
     auto resultsQuerie = discoveredmap.count(node.getStringID());
@@ -71,6 +72,7 @@ bool PuzzleSolver::isDiscovered(StateNode &node)
         return false ;
 
 }
+
 std::string PuzzleSolver::traceSolution(const StateNode &node)
 {
     std::string solution = "";
